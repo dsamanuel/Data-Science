@@ -36,3 +36,12 @@
 
 
 
+
+
+| Regression Test / Model | Purpose | Assumed Constraints | Python Method |
+|---|---|---|---|
+| Simple Linear Regression | Models relationship between one predictor and one dependent variable. | Linearity, homoscedasticity, independent and normal residuals. | statsmodels.api.OLS |
+| Multiple Linear Regression | Predicts a continuous outcome using multiple explanatory variables. | No severe multicollinearity among predictor variables. | statsmodels.formula.api.ols |
+| Logistic Regression | Predicts the probability of a binary or categorical outcome. | Independence of errors, absence of high multicollinearity. | statsmodels.api.Logit / Logit.from_formula |
+
+
