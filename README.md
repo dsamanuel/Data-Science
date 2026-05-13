@@ -34,5 +34,5 @@
 | Pearson Correlation | Measures strength of a linear relationship between two variables. | Normally distributed continuous values. | scipy.stats.pearsonr |
 | Spearman Correlation | Measures a monotonic relationship between two variables. | Non-parametric, ordinal, or non-linear continuous data. | scipy.stats.spearmanr |
 
-If you want to apply these, I can provide the complete code blocks for a specific test or show you how to plot the results using matplotlib or seaborn.
+
 
