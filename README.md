@@ -45,3 +45,4 @@
 | Logistic Regression | Predicts the probability of a binary or categorical outcome. | Independence of errors, absence of high multicollinearity. | statsmodels.api.Logit / Logit.from_formula |
 
 
+![alt text](image.png)
