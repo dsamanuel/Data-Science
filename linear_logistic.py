@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.metrics import confusion_matrix, accuracy_score
 
 # 1. Dummy Data: Hours studied vs. Exam Outcomes
 X = np.array([[1], [2], [3], [4], [5], [6], [7], [8]])
